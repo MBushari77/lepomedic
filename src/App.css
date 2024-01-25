@@ -1,0 +1,1356 @@
+*{
+  font-family: 'Questrial', sans-serif;
+  outline: none;
+}
+body{
+  min-width: 1320px;
+}
+i{
+  cursor: default;
+}
+p{
+  cursor: default;
+}
+h1, h2, h3, h4, h5, h6{
+  cursor: default;
+  font-family: 'Secular One', sans-serif;
+}
+:root{
+	--lightLepo: #2e4162;
+	--darkLepo:#132441;
+  --goldLepo: #f0a36f;
+  --darkGoldLepo: #f37e2f;
+  --quite: #f1f3ff;
+}
+.shadow{
+  box-shadow: 0 0 5px 0px #000000ab;
+}
+button{
+  cursor: pointer;
+}
+button:focus{
+  outline: none;
+}
+button:active{
+  outline: none;
+}
+.row{
+  width: 100%;
+  margin: 0px;
+}
+body{
+  margin: 0px;
+}
+.header_space{
+  padding-top: 90px;
+}
+
+
+
+
+
+
+
+
+
+/* Nav menu */
+.nav_menu_background{
+  background-color: #000000b9;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 101;
+  padding: 5%;
+}
+.nav_menu{
+  background-color: white;
+  width: 90%;
+  max-width: 550px;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav_menu_option{
+  display: block;
+  color: #2e4162;
+  margin: 25px;
+  padding: 10px;
+  font-size: 19px;
+  transition-duration: 0.1s;
+  border-radius: 5px;
+}
+.nav_menu_option:hover{
+  color: white;
+  text-decoration: none;
+  background-color: #2e4162;
+}
+.nav_menu_esc{
+  width: 93%;
+  text-align: right;
+}
+.nav_menu_esc i{
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav_login{
+  background-color: teal;
+  color: white;
+}
+.nav_logout{
+  background-color: chocolate;
+  color: white;
+}
+.nav_logout:hover{
+  background-color: rgb(184, 82, 10);
+  color: white;
+}
+
+
+
+
+
+
+
+/* Header section */
+.header{
+  padding: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.header_logo_side{
+  text-align: left;
+}
+.header_logo_side img{
+  height: 50px;
+  cursor: pointer;
+}
+.burger_button_side{
+  text-align: right;
+}
+.burger_button_side button{
+  background-color: white;
+  border: none;
+  height: 100%;
+  font-size: 20px;
+  color: #2e4162;
+  z-index: 200;
+}
+
+
+
+
+
+
+
+
+
+
+/* Home section */
+.home_header{
+  background-color: #132441;
+}
+.home_header_cover{
+  padding-top: 3%;
+  padding-bottom: 10%;
+  background-color: var(--quite);
+}
+
+.home_logo img{
+  height: 40vh;
+  padding: 2%;
+}
+.home_header h3{
+  font-weight: 900;
+  color: var(--darkLepo)
+}
+.about_details{
+  text-align: left;
+  padding: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: var(--quite);
+  color: var(--lightLepo);
+}
+.left_bar{
+  border-left: solid var(--goldLepo) 4px;
+  padding-left: 5%;
+}
+.about_details h2{
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.about_details p{
+  font-size: 20px;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+}
+.about_img_section{
+  text-align: center;
+}
+.about_img_section img{
+  width: 50%;
+}
+/* ##### */
+.companies{
+  background-color: var(--goldLepo);
+  padding: 3%;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: left;
+}
+.testimonials{
+  padding: 3%;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: #132441;
+  color: white;
+  text-align: left;
+}
+.comment{
+  padding: 3%;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: left;
+}
+.comp_slider{
+  text-align: center;
+  width: 100%;
+}
+
+
+
+/* About secrion */
+.about_us_header{
+  padding: 3%;
+}
+.team_section{
+  padding: 5%;
+  margin: 3%;
+  margin-top: 0%;
+  background-color: var(--darkLepo);
+  color: white;
+  border-radius: 10px;
+}
+.team_title{
+  text-align: left;
+}
+.team_title h2{
+  font-weight: bold;
+}
+.team_title p{
+  font-size: 21px;
+}
+.team_members{
+  padding-top: 2%;
+}
+.team_member{
+  border: solid lightgray 1px;
+  border-radius: 10px;
+  padding: 5%;
+  margin: 10px;
+}
+.team_member img{
+  width: 50%;
+  border-radius: 50%;
+}
+.member_name{
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.job_title{
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* Comments section */
+.comment_title p{
+  font-size: 19px;
+}
+.new_comment_form_container{
+  text-align: center;
+  background-color: white;
+  margin: 5%;
+  width: 90%;
+  max-width: 800px;
+  margin-top: 0%;
+  border-radius: 10px;
+  padding-top: 5%;
+}
+.only_comment_form{
+  max-width: 100%;
+  padding-top: 1%;
+}
+.new_comment_form{
+  padding: 10%;
+  padding-top: 0%;
+}
+.comment_input_icon_container{
+  padding-left: 10px;
+  text-align: left;
+}
+.comment_input_container input{
+  width: 100%;
+  margin: 10px;
+  margin-top: 2px;
+  padding: 8px;
+  border: solid gray 1px;
+  border-radius: 5px;
+}
+.comment_input_container textarea{
+  width: 100%;
+  margin: 10px;
+  padding: 8px;
+  border: solid lightgray 1px;
+  border-radius: 5px;
+}
+.comment_input_container button{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--lightLepo);
+  color: white;
+  transition-duration: 0.2s;
+}
+.comment_input_container button:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Login and register */
+.form_img{
+  width: 60%;
+  padding-top: 5%;
+}
+
+
+
+
+
+
+/* Profile section */
+.profile_container{
+  padding: 3%;
+}
+.company_logo_container img{
+  width: 50%;
+}
+.company_profile_details{
+  text-align: left;
+  color: #132441;
+  /* background-color: #132441; */
+  padding: 5%;
+  border-radius: 10px;
+}
+.company_profile_details h2{
+  color: var(--darkLepo);
+  font-weight: bold;
+}
+.company_profile_details table{
+  padding-left: 5%;
+  display: inline-block;
+  width: 100%;
+}
+.company_profile_details td{
+  padding: 5px;
+  width: 50%;
+  min-width: 200px;
+
+  font-size: 19px;
+}
+
+.profile_actions_button{
+  display: inline-block;
+  width: 90%;
+  margin: 10px;
+  padding: 8px;
+  border: solid lightgray 1px;
+  border: none;
+  margin-top: 15%;
+  border-radius: 5px;
+  background-color: var(--lightLepo);
+  color: white;
+  transition-duration: 0.2s;
+}
+.profile_actions_button:hover{
+  background-color: var(--darkLepo);
+  color: white;
+  text-decoration: none;
+}
+.upload_new_profile_picture_button{
+  text-align: right;
+  width: 90%;
+}
+.upload_new_profile_picture_button button{
+  border: solid lightgray 1px;
+  background-color: white;
+  color: var(--lightLepo);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  scale: 0.6;
+  transition-duration: 0.2s;
+}
+.upload_new_profile_picture_button button:hover{
+  scale: 1;
+}
+.home_header_buttons .home_register{
+  display: inline-block;
+  width: 20%;
+  min-width: 200px;
+  margin: 10px;
+  padding: 8px;
+  border: solid lightgray 1px;
+  border: none;
+  margin-top: 1%;
+  border-radius: 5px;
+  color: white;
+  transition-duration: 0.2s;
+}
+.home_header_buttons .home_register:hover{
+  text-decoration: none;
+  scale: 1.05;
+}
+.home_register{
+  background-color: var(--lightLepo);
+}
+.home_login{
+  background-color: var(--lightLepo);
+}
+.head_line_gold{
+  border-top: solid #f0a36f 25px;
+  width: 50%;
+}
+.head_line_dark_gold{
+  background-color: var(--darkGoldLepo);
+}
+.head_line_lepo{
+  border-top: solid #132441 25px;
+  width: 50%;
+}
+.lepo_background{
+  background-color: #132441;
+  padding-bottom: 5%;
+}
+.lepo_background .comment_title{
+  color: white;
+  padding: 2%;
+  padding-bottom: 1%;
+}
+.edit_info_comp_icon_section{
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5%;
+  margin-top: 5%;
+}
+.edit_info_comp_icon_section h4{
+  padding-top: 5%;
+  color: #132441;
+}
+.edit_info_comp_icon_section p{
+  padding-bottom: 0%;
+  margin-bottom: 1%;
+}
+.edit_info_name_container{
+  border-top: solid lightgray 1px;
+  padding-top: 2%;
+}
+.edit_info_comp_icon_section img{
+  padding: 5%;
+  /* border: lightgray solid 1px; */
+  border-radius: 10px;
+  padding-bottom: 10%;
+  width: 70%;
+}
+
+.about_join_us{
+  display: inline-block;
+  width: 50%;
+  min-width: 200px;
+  text-align: center;
+  margin: 10px;
+  padding: 8px;
+  border: solid lightgray 1px;
+  border: none;
+  margin-top: 1%;
+  border-radius: 5px;
+  background-color: var(--goldLepo);
+  color: white;
+  transition-duration: 0.2s;
+}
+.about_join_us:hover{
+  text-decoration: none;
+  color: white;
+
+  background-color: var(--darkGoldLepo);
+}
+
+
+
+
+
+
+/* Browse section */
+.browse_header{
+  background-color: #132441;
+  padding: 2%;
+  color: white;
+  min-height: 100vh;
+}
+.browse_tags{
+  padding-top: 10px;
+}
+.tag{
+  cursor: pointer;
+  display: block;
+  /* padding: 20px; */
+  width: 90%;
+  /* padding-top: 5px; */
+  padding-bottom: 5px;
+  /* background-color: white; */
+  border-radius: 15px;
+  margin: 5px;
+  /* color: #132441; */
+  color: #f1f3ff;
+  text-align: left;
+  transition-duration: 0.1s;
+}
+.tag:hover{
+  /* scale: 1.1; */
+  color: #f37e2f;
+}
+.tag:active{
+  scale: 1;
+}
+.tag_selected{
+  background-color: var(--darkGoldLepo);
+}
+.browse_cards_container{
+  padding: 5%;
+}
+.product_card{
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.product_card_img img{
+  width: 80%;
+  padding: 5px;
+  margin: 10px;
+}
+.product_card h5{
+  margin: 1px;
+}
+.product_card p{
+  margin: 0px;
+}
+.product_card_link{
+  background-color:var(--lightLepo);
+  color: white;
+  transition-duration: 0.2s;
+  display: inline-block;
+  width: 80%;
+  padding: 2px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.product_card_link:hover{
+  background-color:var(--darkLepo);
+  color: white;
+  text-decoration: none;
+}
+.product_card_link_secondary{
+  background-color: var(--goldLepo);
+}
+.product_card_link_secondary:hover{
+  background-color: var(--darkGoldLepo);
+}
+.product_search_box{
+  background-color: white;
+  border-radius: 10px;
+}
+.product_search_box input{
+  border-radius:  5px;
+  border: none;
+  width: 100%;
+  padding: 5px;  
+}
+.product_search_box button{
+  color: #132441;
+  height: 100%;
+  background-color: #00000000;
+  border: none;
+}
+
+.current_product{
+  padding: 5%;
+  padding-bottom: 3%;
+  background-color: var(--quite);
+}
+.current_product img{
+  width: 90%;
+}
+.current_product_details{
+  padding: 2%;
+  text-align: left;
+}
+.current_product_details td{
+  padding: 3px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.current_product_details tr{
+  border-left: white solid 4px;
+}
+.current_product_details tr:nth-child(odd){
+  /* background-color: #ffdfca; */
+  border-color: var(--darkGoldLepo);
+}
+
+.product_more_details{
+  padding-top: 15px;
+}
+.product_more_details h4{
+  margin: 5px;
+  margin-bottom: 0px;
+}
+.product_more_details p{
+  padding: 10px;
+  padding-top: 5px;
+}
+.similar_header{
+  background-color: var(--darkLepo);
+  color: white;
+  padding: 2%;
+}
+.similar_header h2{
+  margin: 0px;
+  padding: 0px;
+}
+.similar_products_cards_container{
+  padding: 5%;
+}
+.reg_type_buttons button{
+  width: 20%;
+  border: none;
+  background-color: var(--lightLepo);
+  color: white;
+  padding: 10px;
+  transition-duration: 0.2s;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.reg_type_buttons button:hover{
+  background-color: var(--darkLepo);
+}
+.reg_type_buttons .active{
+  background-color: var(--darkGoldLepo);
+}
+.reg_type_buttons .active:hover{
+  background-color: var(--goldLepo);
+}
+.reg_type_buttons{
+  margin-top: -30px;
+}
+.reg_modal_container{
+  position: fixed;
+  background-color: #000000ab;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 105;
+}
+.modal_msg_container{
+  padding: 15px;
+  margin-top: 15%;
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+.modal_msg_container p{
+  margin: 0px;
+  font-size: 21px;
+}
+.modal_msg_header{
+  text-align: right;
+}
+.modal_msg_header i:hover{
+  cursor: pointer;
+}
+.modal_msg_body{
+  padding: 5%;
+  padding-top: 2%;
+}
+
+.modal_msg_container .modal_btn{
+  display: inline-block;
+  width: 80%;
+  margin: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--lightLepo);
+  color: white;
+  transition-duration: 0.2s;
+}
+.modal_msg_container .modal_btn:hover{
+  text-decoration: none;
+  color: white;
+  background-color: var(--darkLepo);
+}
+
+.header_user_profile{
+  height: 50px;
+}
+.header_user_data{
+  text-align: right;
+}
+.header_user_data img{
+  height: 50px;
+  margin-right: 5%;
+}
+.header_user_data i{
+  margin-right: 3%;
+}
+
+.product_tags i{
+  display: inline-block;
+  background-color: var(--lightLepo);
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  margin: 5px;
+  min-width: 50px;
+  text-align: center;
+  font-style: normal;
+  cursor: pointer;
+}
+.product_tags h4{
+  margin: 5px;
+  margin-top: 15px;
+}
+.product_tags h5{
+  padding-left: 20px;
+}
+
+
+.product_comments_container{
+  border: solid lightgray 1px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+  padding: 15px;
+}
+.product_comment{
+  border-bottom: solid lightgray 1px;
+}
+.product_comment p{
+  margin: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.product_comment i{
+  display: inline-block;
+  padding: 10px;
+  padding-top: 0px;
+  padding-left: 15px;
+  font-style: normal;
+}
+.product_new_comment{
+  text-align: center;
+  padding: 10px;
+}
+.product_new_comment textarea{
+  width: 100%;
+  min-width: 100%;
+  height: 70px;
+  border: solid lightgray 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.product_new_comment button{
+  width: 90%;
+  border: none;
+  background-color: var(--lightLepo);
+  color: white;
+  padding: 5px;
+  transition-duration: 0.2s;
+  border-radius: 10px;
+  margin: 5px;
+}
+.product_new_comment button:hover{
+  background-color: var(--darkLepo);
+}
+.delete_post{
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.delete_post:hover{
+  scale: 1.1;
+  color: #ff2626;
+}
+.login_err_msg{
+  font-style: normal;
+  color: #ff2626;
+}
+.product_slider{
+  width: 100%;
+}
+.product_slider img{
+  width: 90%;
+  border-radius: 10px;
+}
+.one_pro_image_cont{
+  width: 100%;
+}
+.our_products_header{
+  min-height: fit-content;
+}
+.product_card_actions_container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.product_card_actions_container i{
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+.product_card_actions_container i:hover{
+  scale: 1.1;
+}
+.product_card_actions_container .icon-pencil-2:hover{
+  color: #348f00;
+}
+.product_card_actions_container .icon-trash-2:hover{
+  color: #ff2626;
+}
+.add_product_tags p{
+  font-weight: bold;
+  width: 80%;
+  padding: 5%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+.add_product_tags_controler i{
+  background-color: gainsboro;
+  color: #132441;
+}
+.add_product_tags_controler .active{
+  background-color: #132441;
+  color: white;
+}
+.dashboard{
+  padding: 5%;
+}
+.db_header_controler{
+  padding: 5%;
+  padding-top: 3%;
+}
+.db_header_controler .db_header_links{
+  line-height: 150px;
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 15%;
+  font-size: 21px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition-duration: 0.2s;
+}
+.db_header_links:hover{
+  text-decoration: none;
+  scale: 1.03;
+}
+.all_comapnies_button{
+  background-color: #132441;
+}
+.all_users_button{
+  background-color: #348f00;
+}
+.all_products_button{
+  background-color: #ffbb00;
+}
+.waiting_comapnies_button{
+  background-color: #ff2626;
+}
+.db_header_controler button:hover{
+  scale: 1.1;
+}
+.all_companies_header{
+  background-color: #2e4162;
+  padding: 3%;
+}
+.all_companies_header h3{
+  color: white;
+  font-weight: bold;
+}
+.all_companies_card_container{
+  padding: 5%;
+}
+
+.company_card{
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.company_card_header img{
+  height: 100px;
+}
+.company_card_details .product_card_link{
+  border: none;
+  padding: 5px;
+  direction: rtl;
+}
+.product_card_link_danger{
+  background-color: #ff5943;
+}
+.product_card_link_danger:hover{
+  background-color: #ff0000;
+}
+.company_card_details p{
+  margin: 3px;
+}
+.company_card_details i{
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.dashboeard_username h4{
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+.dashboard_show_user table{
+  width: 90%;
+  max-width: 500px;
+}
+.dashboard_show_user tr:nth-child(odd){
+  background-color: lightgray;
+}
+.dashboard_show_user table td{
+  width: 50%;
+  padding: 10px;
+}
+.dashboard_user_control button{
+  border: none;
+  background-color: #ff2626;
+  width: 90%;
+  max-width: 300px;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 20px;
+  direction: rtl;
+  transition-duration: 0.1s;
+}
+.dashboard_user_control button:hover{
+  scale: 1.05;
+}
+.dashboard_user_control button:active{
+  scale: 0.95;
+}
+.dashboard_show_user h2{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.dashboard_user_control .confirm_order{
+  background-color: #348f00;
+}
+.add_product_button_toggler button{
+  margin-top: 5px;
+  color:#132441;
+  background-color: #f1f3ff;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.add_product_button_toggler button:hover{
+  scale: 1.05;
+}
+.add_product_button_toggler .active{
+  background-color:#348f00;
+  color: white;
+}
+
+.add_product_button_toggler .active:hover{
+  background-color: lightgreen;
+}
+
+.add_product_button_toggler .active:hover{
+  background-color: var(--lightLepo);
+  color: white;
+}
+.dashboard_user_control{
+  width: 90%;
+  max-width: 700px;
+  padding-bottom: 5%;
+}
+.dashboard_user_control .verify_company{
+  background-color: #348f00;
+}
+.modal_btn{
+  direction: rtl;
+}
+.modal_input{
+  padding: 5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.modal_input input{
+  width: 90%;
+  border: solid lightgray 1px;
+  border-radius: 5px;
+  padding: 8px;
+}
+.comment_input_container label{
+  text-align: left;
+  margin-bottom: 0px;
+  width: 100%;
+}
+.show_company_logo img{
+  width: 200px;
+  padding: 5%;
+}
+.form_err{
+  color: #ff5943;
+}
+.head_line_dark_gold{
+  border-color: var(--darkGoldLepo);
+}
+.lepo_header_text p{
+  width: 60%;
+  font-size: 17px;
+  color: #132441;
+  margin-bottom: 0px;
+}
+.home_header_cover h3{
+  font-size: 38px;
+  font-weight:900;
+}
+.wait_conatiner{
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+.profile_picture_container{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+@media (max-width: 450px) and (min-width: 100px){
+  body{
+    min-width: 20px;
+  }
+  .home_logo img{
+    width: 100px;
+    height: auto;
+    margin: 15%;
+  }
+  .header{
+    padding: 15px;
+  }
+  .header_user_data{
+    padding: 0px;
+  }
+  .home_header_cover h3{
+    font-size: 21px;
+    width: 90%;
+    margin-bottom: 10%;
+  }
+  .lepo_header_text p{
+    font-size: 13px;
+    width: 85%;
+    text-align: justify;
+    padding-bottom: 10%;
+  }
+  .home_header_buttons button, .home_register{
+    padding: 1px;
+    font-size: 13px; 
+  }
+  .slider_element_logo{
+    padding: 5px;
+  }
+  .slider_element_logo img{
+    width: 20px;
+    height: 35px;
+  }
+  .slider_title{
+    font-size: 15px;
+  }
+  .new_comment_form_container{
+    width: 100%;
+    margin: 0px;
+  }
+  .new_comment_form{
+    padding: 5px;
+    text-align: left;
+  }
+  .new_comment_form .col-md-12{
+    padding: 0px;
+    margin: 0px;
+  }
+  .mobile_input{
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+  }
+  .comment_input_container input{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .comment_input_container textarea{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .comment_input_container button{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .comment_title p{
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .header_space{
+    padding-top: 65px;
+  }
+  .head_line_gold{
+    border-top: solid var(--goldLepo) 15px
+  }
+
+  .head_line_lepo{
+    border-top: solid var(--darkLepo) 15px;
+  }
+  .nav_menu_option{
+    margin: 10px;
+    font-size: 15px;
+    padding: 6px;
+  }
+  .nav_menu_esc{
+    width: 85%;
+  }
+  .nav_menu_esc i{
+    font-size: 15px;
+  }
+  .nav_menu{
+    margin: 0px;
+    margin-top: 10vh;
+  }
+  .nav_menu_background{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .new_comment_form_container{
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+  }
+  .lepo_background{
+    min-height: 100vh;
+  }
+  .comment_title h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .comment_title p{
+    font-size: 13px;
+  }
+  .login_register_add_form_container{
+    width: 90%;
+  }
+  .browse_header h2{
+    font-size: 21px;
+    margin: 10px;
+  }
+  .product_search_box{
+    width: 90%;
+  }
+  .browse_header{
+    min-height: fit-content;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .browse_tags{
+    display: none;
+  }
+  .browse_cards_container{
+    padding: 0px;
+  }
+  .login_err_msg{
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .reg_type_buttons{
+    padding-top: 25px;
+  }
+  .reg_type_buttons button{
+    width: 40%;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .about_us_header h1{
+    font-size: 25px;
+  }
+  .about_details{
+      padding: 10px;
+      padding-top: 20px;
+  }
+  .left_bar{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  .left_bar p{
+    font-size: 15px;
+  }
+  .left_bar h2{
+    font-size: 21px;
+  }
+  .about_join_us{
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px;
+    width: 100%;
+  }
+  .about_img_section img{
+    width: 30%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+  }
+  .team_title{
+    text-align: center;
+  }
+  .team_title h2{
+    font-size: 19px;
+    margin-bottom: 0px;
+  }
+  .team_title p{
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .profile_actions_button{
+    padding: 5px;
+    margin-top: 15px;
+  }
+  .company_profile_details h2{
+    font-size: 17px;
+  }
+  .company_profile_details td{
+    width: 100%;
+    font-size: 15px;
+    min-width: 100%;
+  }
+  .profile_mobile{
+    padding: 0px;
+  }
+  .db_header_controler .db_header_links{
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: unset;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .dashboeard_username h4{
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  .company_profile_details tr{
+    border-left: solid var(--goldLepo) 5px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .company_profile_details td{
+    display: block;
+  }
+  .about_more_details_text p{
+    font-size: 15px;
+  }
+  .about_more_details_text h3{
+    font-size: 19px;
+  }
+  .profile_picture_container{
+    width: 100px;
+    height: 100px;
+  }
+  .modal_msg_container h4{
+    font-size: 15px;
+    margin-top: 15px;
+  }
+  .modal_msg_container input{
+    padding: 3px;
+    width: 100%;
+    font-size: 13px;
+  }
+  .modal_msg_container .modal_btn{
+    font-size: 13px;
+    width: 70%;
+    padding: 5px;
+  }
+}
+
+
+.comment_input_container .action_btn_on_wait{
+  background-color: gray;
+}
+
+.modal_msg_container .action_btn_on_wait{
+  background-color: gray;
+  direction: ltr;
+}
+.modal_msg_container .action_btn_on_wait:hover{
+  background-color: gray;
+  direction: ltr;
+}

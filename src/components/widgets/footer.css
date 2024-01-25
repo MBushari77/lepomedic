@@ -1,0 +1,32 @@
+footer{
+    padding: 2%;
+    background-color: #202020;
+}
+footer p{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+.footer{
+    background-color: #0f0f0f;
+    padding: 5px;
+}
+.footer p{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 13px;
+}
+
+@media (max-width: 450px) and (min-width: 100px){
+    .footer p{
+        font-size: 11px;
+    }
+    footer {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    footer p{
+        font-size: 12px;
+    }
+}
